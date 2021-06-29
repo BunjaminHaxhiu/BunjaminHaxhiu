@@ -1,0 +1,201 @@
+body{
+    background-color: #292929;
+    font-family: Arial;
+}
+header{
+    background-color: #202020;
+    font-family: Arial;
+}
+.logo img{
+    height: 70px;
+    width: 70px;
+    top: 15px;
+    position: relative;
+    transition: 0.3s;
+}
+.logo img:hover{
+    content: url("BunjaminHaxhiu/img/logo.png");
+}
+.menu{
+    display: flex;
+
+}
+.logo h1{
+    position: relative;
+    top: 10px;
+    color: #505978;
+}
+.logo{
+    display: flex;
+    position: relative;
+    left: 100px;
+}
+header{
+    height: 100px;
+}
+.menubar{
+    position: relative;
+    left: 750px;
+    margin-top: 40px;
+}
+.menubar a{
+    color: #505978;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0px 20px;
+}
+.menubar .selectedmenu {
+    background-color: #292929;
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    transition: 0.3s;
+    margin: 0px;
+    border-radius: 10px;
+}
+
+.menubar .selectedmenu:hover {
+    background-color: #505978;
+    color: #292929;
+}
+hr{
+    border: double;
+    color: #202020;
+}
+#portrait{
+    width: 250px;
+    height: 300px;
+    border-radius: 100px;
+    margin-left: 45px;
+}
+.picture{
+    position: relative;
+    left: 120px;
+    color: #505978;
+    top: 70px;
+    width: 350px;
+    margin-bottom: 100px;
+}
+.picture h1{
+    text-align: center;
+    margin: 0px;
+}
+.picture h2{
+    text-align: center;
+    margin: 0px;
+}
+aside h1{
+    position: absolute;
+    top: 170px;
+    left: 550px;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 50px;
+    color: #505978;
+}
+aside p {
+    position: absolute;
+    top: 275px;
+    left: 550px;
+    width: 900px;
+    color: #505978;
+    font-size: large;
+}
+aside h2{
+    position: absolute;
+    top: 360px;
+    left: 550px;
+    width: 900px;
+    font-size: xx-large;
+    color: #505978;
+    font-family: monospace;
+}
+aside ul{
+    position: absolute;
+    top: 405px;
+    left: 550px;
+    width: 900px;
+    font-size: x-large;
+    color: #505978;
+    font-family: monospace;
+    font-weight: bold;
+    list-style-type: circle;
+}
+aside ul li:first-child{
+    list-style-type: disc;
+}
+footer{
+    background-color: #202020;
+    font-family: Arial;
+    padding: 15px;
+
+}
+.footer{
+    text-align: center;
+    color: #505978;
+}
+.footer a{
+    text-decoration: none;
+    color: #505978;
+}
+.contacttitle{
+    position: relative;
+    left: 100px;
+    color: #505978;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+input[type=submit] {
+    background-color: #505978;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #202020;
+}
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 35px 50px;
+}
+#graphicdesign{
+    text-align: center;
+    color: #505978;
+}
+.illustrator{
+    text-align: center;
+}
+.first{
+    display: flex;
+}
+.second{
+    display: flex;
+}
+.first div{
+    position: relative;
+    left: 500px;
+    padding: 25px;
+}
+.second div{
+    position: relative;
+    left: 385px;
+    padding: 25px;
+}
+#programming .second div{
+    position: relative;
+    left: 485px;
+    padding: 35px;
+}
